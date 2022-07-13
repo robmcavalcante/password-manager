@@ -1,0 +1,13 @@
+<h1>Items</h1>
+
+<div>
+  <% @items.each do |item| %>
+  <tr scope="row">
+    <td style="width: 20%">
+      <%= item.name %> <br>
+      <%= item.username %>
+    </td>
+  </tr>
+  <br>
+<% end %>
+</div>
